@@ -64,6 +64,11 @@ body > h1{
 .date{
     text-align: top;
     vertical-align: top;
+    color: black;
+    background-color: white;
+}
+.date:hover{
+    background-color: rgba(0, 0, 0, 0.103) !important;
 }
 
 /*****************Themes*****************/

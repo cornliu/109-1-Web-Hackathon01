@@ -12,9 +12,9 @@
         <div>
             <input type="text" placeholder="Type something..." id="cal-input"></input>
             <input type="color" id="cal-color"></input>
-            <button id="cal-button">Add to Calendar</button>
+            <button id="cal-button" onclick="addevent(this)">Add to Calendar</button>
         </div>
-        <div>
+        <div id="framework">
             <table id='Cal-main'>
                 <tr class="Cal-title-row">
                   <td>Sunday</td>
@@ -26,22 +26,40 @@
                   <td>Saturday</td>
                 </tr>
                 <tr class="Cal-content-row">
-                  <td class='date'>4</td>
-                  <td class='date'>5</td>
-                  <td class='date'>6</td>
-                  <td class='date'>7</td>
-                  <td class='date'>8</td>
-                  <td class='date'>9</td>
-                  <td class='date'>10</td>
+                  <td class='date' onclick="test(this)">4</td>
+                  <td class='date' onclick="test(this)">5</td>
+                  <td class='date' onclick="test(this)">6</td>
+                  <td class='date' onclick="test(this)">7</td>
+                  <td class='date' onclick="test(this)">8</td>
+                  <td class='date' onclick="test(this)">9</td>
+                  <td class='date' onclick="test(this)">10</td>
                 </tr>
                 <tr class="Cal-content-row">
-                    <td class='date'>11</td>
-                    <td class='date'>12</td>
-                    <td class='date'>13</td>
-                    <td class='date'>14</td>
-                    <td class='date'>15</td>
-                    <td class='date'>16</td>
-                    <td class='date'>17</td>
+                    <td class='date' onclick="test(this)">11</td>
+                    <td class='date' onclick="test(this)">12</td>
+                    <td class='date' onclick="test(this)">13</td>
+                    <td class='date' onclick="test(this)">14</td>
+                    <td class='date' onclick="test(this)">15</td>
+                    <td class='date' onclick="test(this)">16</td>
+                    <td class='date' onclick="test(this)">17</td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date' onclick="test(this)">18</td>
+                    <td class='date' onclick="test(this)">19</td>
+                    <td class='date' onclick="test(this)">20</td>
+                    <td class='date' onclick="test(this)">21</td>
+                    <td class='date' onclick="test(this)">22</td>
+                    <td class='date' onclick="test(this)">23</td>
+                    <td class='date' onclick="test(this)">24</td>
+                </tr>
+                <tr class="Cal-content-row">
+                    <td class='date' onclick="test(this)">25</td>
+                    <td class='date' onclick="test(this)">26</td>
+                    <td class='date' onclick="test(this)">27</td>
+                    <td class='date' onclick="test(this)">28</td>
+                    <td class='date' onclick="test(this)">29</td>
+                    <td class='date' onclick="test(this)">30</td>
+                    <td class='date' onclick="test(this)">31</td>
                 </tr>
               </table>
         </div>
